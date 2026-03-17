@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Web Developer, Developer: Tushar Dumra">
+    <title>Tushar - Web Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header Section for Navigation -->
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 
+            The Hamburger Menu Button 
+            This button will be hidden on desktops and shown on smaller screens.
+        -->
+        <!-- These spans will be styled with CSS to create the three "bars" of the icon. -->
+        <!-- <button
+          class="menu-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button> -->
+
+        <p id="logo">Portfolio</p>
+
+        <!-- HTML Structure for Theme Switching -->
+        <div class="theme-switcher">
+          <!-- 
+                The <label> provides an accessible name for the control and makes the entire
+                visual switch clickable. The 'for' attribute links it to the input's 'id'.
+            -->
+          <label for="theme-toggle" class="switch-label">
+            <!-- We will visually hide the checkbox but keep it for functionality and accessibility. -->
+            <input type="checkbox" id="theme-toggle" class="switch-checkbox" aria-label="Toggle"/>
+            <!-- This span will be styled with CSS to look like the track and thumb of a slider. -->
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- For Introduction  -->
+      <div class="container">
+        <!-- 
+            NEW CONTENT: This is the actual content for our hero section.
+        -->
+        <h1>Tushar Dumra</h1>
+        <p class="hero-subtitle">Creative Web Developer & UI/UX Enthusiast</p>
+        <p>
+          I design and build beautiful, responsive, and user-friendly websites
+          and applications.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <!-- 
+            NEW: We're adding a wrapper div, 'about-content', to hold our new
+            two-column layout. This lets us apply Flexbox to this container
+            without affecting the H2 heading above.
+        -->
+        <div class="about-content">
+          <!-- First column: The Image -->
+          <div class="about-image">
+            <img
+              src="images/avatar-1.jpg"
+              alt="A professional headshot of Tushar"
+            />
+          </div>
+
+          <!-- Second column: The Text Content -->
+          <div class="about-text">
+            <p>
+              Hello! I'm Tushar, a passionate and creative web developer based
+              in Ludhiana, India. My journey into the world of code began with a
+              fascination for how elegant design and powerful technology could
+              come together to create amazing digital experiences.
+            </p>
+            <p>
+              I am a passionate and self-motivated MERN stack developer with a lot of working knowledge with HTML, CSS, JavaScript, React, Node.js, and MongoDB. I like making web apps that work well on all devices and are easy to use. I also like working on projects that help me get better at what I do. I just finished my MERN stack course, and now I'm focused on making projects that matter and getting ready for real-world problems. I want to be a part of a dynamic team, improve my skills as a software engineer, and turn ideas into useful, working digital experiences. When I'm not coding, you can find
+              me exploring the outdoors, reading a good book, or working on
+              personal projects that challenge me to think outside the box.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          <!-- contains Array of objects for Projects Cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>
+          I'm always open to discussing new projects or opportunities. Feel free
+          to reach out!
+        </p>
+
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xpqypvvl"
+          method="post"
+        >
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="user_name"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="user_email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            name="user_message"
+            id="message"
+            rows="5"
+            placeholder="Your Message"
+            name="message"
+            required
+          ></textarea>
+          <!-- Container for display success or error messages to users while they submitting form -->
+           <div id="form-status"></div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p id="copyright">&copy; 2026 Tushar. All Rights Reserved.</p>
+        <ul id="social-links">
+          <li><a href="https://github.com/tushardumra" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/tushar-dumra" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="#" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
