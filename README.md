@@ -37,11 +37,9 @@ The goal of this portfolio is to present my work in a clean, user-friendly, and 
 
 ### Frontend
 
-* React.js
-* JavaScript (ES6+)
 * HTML5
 * CSS3
-* Tailwind CSS
+* JavaScript (ES6+)
 
 ### Tools & Platforms
 
