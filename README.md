@@ -51,12 +51,6 @@ The goal of this portfolio is to present my work in a clean, user-friendly, and 
 
 ## 📂 Featured Projects
 
-### Restaurant Management System
-
-A full-stack MERN application designed to help restaurant owners manage inventory, orders, products, and sales analytics through an intuitive dashboard.
-
-**Tech Used:** MongoDB, Express.js, React.js, Node.js, Tailwind CSS
-
 ### Kanoj Art
 
 A responsive website developed to showcase artwork and provide a smooth browsing experience.
