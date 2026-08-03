@@ -25,9 +25,7 @@ The goal of this portfolio is to present my work in a clean, user-friendly, and 
 * Responsive design for desktop, tablet, and mobile devices
 * Modern and clean user interface
 * Project showcase section
-* Skills and technology stack section
 * About Me section
-* Resume download option
 * Contact section
 * Fast deployment with Netlify
 
